@@ -211,6 +211,10 @@ bindsym $mod+t exec "urxvtc -e sh -c tmuxen"
 bindsym Print exec --no-startup-id grim-wrapper
 bindsym Shift+Print exec --no-startup-id "grim-wrapper -s"
 bindsym Control+Print exec --no-startup-id "grim-wrapper -w"
+# 录屏
+# 使用 wf-recorder (https://github.com/ammen99/wf-recorder)
+bindsym $mod+Shift+r exec --no-startup-id record-720p
+bindsym $mod+Control+c exec --no-startup-id "pkill -f --signal INT wf-recorder"
 
 #
 # 状态栏：

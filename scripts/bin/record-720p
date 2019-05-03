@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#
+# author  : Xu Xiaodong <xuxiaodong@pm.me>
+# modified: 2019 May 03
+#
+
+x=10
+y=40
+w=1280
+h=720
+datetime=$(date +'%Y-%m-%d_%H%M%S')
+
+wf-recorder -a -g "$x,$y ${w}x${h}"
+mv "$HOME/recording.mp4" "$HOME/record-${datetime}.mp4"
