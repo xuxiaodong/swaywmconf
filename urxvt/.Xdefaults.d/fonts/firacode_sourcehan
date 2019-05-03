@@ -1,0 +1,11 @@
+!
+! author   : Xu Xiaodong <xuxiaodong@pm.me>
+! modified : 2019 Jan 06
+!
+
+URxvt.font           : xft:fira code:size=13,xft:source han sans cn:size=10
+URxvt.boldFont       : xft:fira code:size=13:bold,xft:source han sans cn:size=10:bold
+URxvt.italicFont     : xft:fira code:size=13:italic,xft:source han sans cn:size=10:italic
+URxvt.bolditalicFont : xft:fira code:size=13:bolditalic,xft:source han sans cn:size=10:bolditalic
+
+! vim: ai:et:ts=2:sw=2:tw=78:ft=xdefaults

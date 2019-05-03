@@ -1,0 +1,38 @@
+!
+! nu
+!
+
+*background : #0c0c0c
+*foreground : #ffffff
+
+! black
+*color0     : #404040
+*color8     : #505050
+
+! red
+*color1     : #f03669
+*color9     : #c75b79
+
+! green
+*color2     : #b8e346
+*color10    : #c8e37e
+
+! yellow
+*color3     : #ffa402
+*color11    : #ffbe4a
+
+! blue
+*color4     : #02a2ff
+*color12    : #71cbff
+
+! magenta
+*color5     : #875c8d
+*color13    : #e41f66
+
+! cyan
+*color6     : #6fa9d3
+*color14    : #0078CE
+
+! white
+*color7     : #d2d2d2
+*color15    : #ffffff

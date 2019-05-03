@@ -1,0 +1,11 @@
+!
+! author   : Xu Xiaodong <xuxiaodong@pm.me>
+! modified : 2012 Dec 25
+!
+
+URxvt.font     : xft:ubuntu mono:size=10,xft:source han sans cn:size=10
+URxvt.boldFont : xft:ubuntu mono:size=10:bold,xft:source han sans cn:size=10:bold
+URxvt.italicFont     : xft:ubuntu mono:size=10:italic,xft:source han sans cn:size=10:italic
+URxvt.bolditalicFont : xft:ubuntu mono:size=10:bolditalic,xft:source han sans cn:size=10:bolditalic
+
+! vim: ai:et:ts=2:sw=2:tw=78:ft=xdefaults

@@ -1,0 +1,9 @@
+!
+! author   : Xu Xiaodong <xuxiaodong@pm.me>
+! modified : 2012 Jun 22
+!
+
+URxvt.font     : xft:dina:size=9,xft:wenquanyi bitmap song:size=9
+URxvt.boldFont : xft:dina:size=9,xft:wenquanyi bitmap song:size=9
+
+! vim: ai:et:ts=2:sw=2:tw=78:ft=xdefaults

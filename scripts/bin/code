@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#
+# author  : Xu Xiaodong <xuxiaodong@pm.me>
+# modified: 2019 May 02
+#
+
+GDK_BACKEND=x11 vscodium "$@"

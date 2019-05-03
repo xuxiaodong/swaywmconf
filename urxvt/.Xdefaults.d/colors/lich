@@ -1,0 +1,31 @@
+!
+! lich
+!
+
+*.background : #222222
+*.foreground : #eeeeee
+*.cursorColor: #b89f63
+! black
+*color0      : #222222
+*color8      : #454545
+! red
+*color1      : #8e5c4e
+*color9      : #cc896d
+! green
+*color2      : #6c7e55
+*color10     : #c4df90
+! yellow
+*color3      : #b89f63
+*color11     : #ffe080
+! blue
+*color4      : #7fb8d8
+*color12     : #b8ddea
+! magenta
+*color5      : #956d9d
+*color13     : #c18fcb
+! cyan
+*color6      : #4c8ea1
+*color14     : #6bc1d0
+! white
+*color7      : #808080
+*color15     : #eeeeee

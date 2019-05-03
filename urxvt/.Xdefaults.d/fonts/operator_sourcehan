@@ -1,0 +1,11 @@
+!
+! author   : Xu Xiaodong <xuxiaodong@pm.me>
+! modified : 2019 Apr 22
+!
+
+URxvt.font           : xft:operator mono:size=12,xft:source han sans cn:size=10
+URxvt.boldFont       : xft:operator mono:size=12:bold,xft:source han sans cn:size=10:bold
+URxvt.italicFont     : xft:operator mono:size=12:italic,xft:source han sans cn:size=10:italic
+URxvt.bolditalicFont : xft:operator mono:size=12:bolditalic,xft:source han sans cn:size=10:bolditalic
+
+! vim: ai:et:ts=2:sw=2:tw=78:ft=xdefaults

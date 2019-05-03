@@ -1,0 +1,46 @@
+! file:     ~/.Xresources
+! author:   Ypnose - http://tetedulinuxien.fr
+
+! Colours ----------------------------------
+
+!*background: #14161b
+!*background: #1a1c20
+*background: #1c2027
+!*foreground: #a7b9dc
+!*foreground: #b5c2dc
+*foreground: #b2cae3
+
+!-------------------------------------------
+
+! colorx: Normal
+! colory: Various / High intensity
+
+! Black
+*color0: #1c2027
+*color8: #666666
+! Red
+*color1: #ea6a82
+*color9: #d2548f
+! Green
+*color2: #4a9b6c
+*color10: #6f9f09
+! Yellow
+*color3: #edc56f
+*color11: #dc8a48
+! Blue
+*color4: #3e7ef3
+*color12: #0387db
+! Magenta
+*color5: #7c4f9f
+*color13: #7e62b3
+! Cyan 
+*color6: #30a8e0
+*color14: #2dbfa9
+! White
+*color7: #8998a1
+*color15: #c0c0c0
+
+! URxvt ------------------------------------
+
+URxvt*cursorColor: #073642
+URxvt*cursorColor2: #edb36f

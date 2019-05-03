@@ -1,0 +1,9 @@
+!
+! author   : Xu Xiaodong <xuxiaodong@pm.me>
+! modified : 2016 Nov 11
+!
+
+URxvt.font     : xft:tamzenforpowerline:pixelsize=13,xft:wenquanyi bitmap song:pixelsize=9
+URxvt.boldFont : xft:tamzenforpowerline:pixelsize=13:bold,xft:wenquanyi bitmap song:pixelsize=9:bold
+
+! vim: ai:et:ts=2:sw=2:tw=78:ft=xdefaults

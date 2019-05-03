@@ -1,0 +1,39 @@
+!
+! name   : crshd
+! source : https://github.com/crshd/dots/blob/master/xdefaults/colors
+!
+
+*foreground : #808080
+*background : #151515
+
+! black
+*color0     : #353535
+*color8     : #353535
+
+! red
+*color1     : #c14c2e
+*color9     : #d92918
+
+! green
+*color2     : #bdf271
+*color10    : #ffffa6
+
+! yellow
+*color3     : #ff8939
+*color11    : #ffc051
+
+! blue
+*color4     : #2554a4
+*color12    : #447f6e
+
+! magenta
+*color5     : #b52841
+*color13    : #d9042b
+
+! cyan
+*color6     : #435d65
+*color14    : #6e98a4
+
+! white
+*color7     : #666666
+*color15    : #cccccc

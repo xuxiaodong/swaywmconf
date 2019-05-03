@@ -1,0 +1,42 @@
+#
+# author  : Xu Xiaodong <xuxiaodong@pm.me>
+# modified: 2019 May 02
+#
+
+#-- xft --#
+gtk-xft-antialias = 1
+gtk-xft-hinting   = 1
+gtk-xft-hintstyle = hintslight
+gtk-xft-rgba      = rgb
+
+#-- gtk --#
+gtk-theme-name      = "NumixSolarizedDarkBlue"
+
+#-- icon --#
+gtk-icon-theme-name = "Papirus-Dark"
+
+#-- font --#
+gtk-font-name = "FiraGO 9"
+style "user-font" {
+    font_name = "FiraGO 9"
+}
+widget_class "*" style "user-font"
+
+#-- toolbar --#
+# GTK_TOOLBAR_ICONS      | Only icons
+# GTK_TOOLBAR_TEXT       | Only text
+# GTK_TOOLBAR_BOTH       | Both icons and text
+# GTK_TOOLBAR_BOTH_HORIZ | Icons and text next to the icons
+gtk-toolbar-style = GTK_TOOLBAR_ICONS
+
+#-- icon size --#
+gtk-toolbar-icon-size = GTK_ICON_SIZE_SMALL_TOOLBAR
+
+#-- menu --#
+gtk-menu-popup-delay = 0
+gtk-menu-images      = 0
+
+#-- other --#
+gtk-button-images                = 0
+gtk-enable-event-sounds          = 0
+gtk-enable-input-feedback-sounds = 0

@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+#
+# author  : Xu Xiaodong <xuxiaodong@pm.me>
+# modified: 2019 May 02
+#
+
+#-- default app --#
+export BROWSER=firefox
+
+#-- GUI --#
+export GDK_BACKEND=wayland
+# export QT_QPA_PLATFORM=wayland-egl
+# export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+export CLUTTER_BACKEND=wayland
+export SDL_VIDEODRIVER=wayland
+export _JAVA_AWT_WM_NONREPARENTING=1
+export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=lcd -Dswing.aatext=true'
+export JAVA_FONTS=/usr/share/fonts/adobe-source-han-sans
+export NVIM_TUI_ENABLE_TRUE_COLOR=1
+
+#-- ime --#
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS="@im=fcitx"
+
+#-- wm --#
+wm="${1:-sway}"
+
+case "$wm" in
+    chef) startwm="startx";;
+    sway) startwm="sway";;
+esac
+
+#-- auto start wm --#
+if [[ -z "$DISPLAY" ]] && [[ $(tty) = /dev/tty1 ]]; then
+    "$startwm"
+fi

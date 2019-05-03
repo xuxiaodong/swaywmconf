@@ -1,0 +1,54 @@
+!
+! author   : Xu Xiaodong <xuxiaodong@pm.me>
+! modified : 2019 May 02
+!
+
+!-- colorscheme & font --!
+#include ".Xdefaults.d/colors/solarized_dark"
+#include ".Xdefaults.d/fonts/operator_sourcehan"
+
+!-- xft --!
+! hintstyle : hintnone | hintslight | hintmedium | hintfull
+! lcdfilter : lcdnone  | lcddefault | lcdlight   | lcdlegacy
+Xft.dpi:       96
+Xft.antialias: true
+Xft.autohint:  false
+Xft.hinting:   true
+Xft.hintstyle: hintslight
+Xft.rgba:      rgb
+Xft.lcdfilter: lcdlight
+
+!-- cursor theme --!
+Xcursor.theme: Neutral_Plus
+Xcursor.size:  16
+
+!-- urxvt base --!
+URxvt.title:       URxvt
+URxvt.geometry:    50x13
+URxvt.loginShell:  true
+URxvt.preeditType: Root
+URxvt.saveLines:   65535
+
+!-- urxvt look --!
+URxvt.transparent:     false
+URxvt.cursorBlink:     false
+URxvt.scrollBar:       false
+URxvt.intensityStyles: false
+URxvt.fading:          20
+URxvt.externalBorder:  0
+URxvt.internalBorder:  6
+
+!-- urxvt extension --!
+URxvt.perl-lib:             /usr/lib/urxvt/perl/
+URxvt.perl-ext-common:      default,keyboard-select,url-select,clipboard
+URxvt.keysym.M-Escape:      perl:keyboard-select:activate
+URxvt.keysym.M-s:           perl:keyboard-select:search
+URxvt.keysym.M-u:           perl:url-select:select_next
+URxvt.url-select.autocopy:  true
+URxvt.url-select.button:    1
+URxvt.url-select.launcher:  firefox
+URxvt.url-select.underline: true
+URxvt.keysym.M-c:           perl:clipboard:copy
+URxvt.keysym.M-v:           perl:clipboard:paste
+URxvt.keysym.M-C-v:         perl:clipboard:paste_escaped
+URxvt.clipboard.autocopy:   true

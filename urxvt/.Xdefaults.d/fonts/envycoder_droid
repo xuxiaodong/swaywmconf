@@ -1,0 +1,9 @@
+!
+! author   : Xu Xiaodong <xuxiaodong@pm.me>
+! modified : 2013 Jan 30
+!
+
+URxvt.font     : xft:envy code r for powerline:size=10,xft:droid sans fallback:size=10
+URxvt.boldFont : xft:envy code r for powerline:size=10:bold,xft:droid sans fallback:size=10
+
+! vim: ai:et:ts=2:sw=2:tw=78:ft=xdefaults
