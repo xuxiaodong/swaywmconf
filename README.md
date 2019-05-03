@@ -124,6 +124,7 @@ stow sway waybar urxvt rofi
 | $mod+c                          | 锁屏      |
 | $mod+t                          | 启动 tmux |
 | Print/Shift+Print/Control+Print | 截图      |
+| $mod+Shift+r/$mod+Control+c     | 录屏      |
 
 建议阅读 Sway config 来了解输入、输出、状态栏、自启动程序等其它配置，我注释很详细。
 
