@@ -31,10 +31,10 @@ set $gnome-schema org.gnome.desktop.interface
 output * bg /home/xiaodong/usr/img/autoban.png fill
 # 显示器
 # 通过运行 `swaymsg -t get_outputs` 可以获得显示器名称
-# 外置显示器
-output DP-1 pos 0 0 res 1440x900
 # 笔记本自带显示器
-output eDP-1 pos 1440 0 res 1920x1080
+output eDP-1 pos 0,0 res 1920x1080
+# 外置显示器
+output DP-1 pos 1920,0 res 1440x900
 
 ### 空闲配置
 #

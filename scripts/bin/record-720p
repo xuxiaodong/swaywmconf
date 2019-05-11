@@ -8,7 +8,8 @@ x=10
 y=40
 w=1280
 h=720
-datetime=$(date +'%Y-%m-%d_%H%M%S')
+datetime=$(date +'%Y-%m-%d_%H.%M.%S')
 
-wf-recorder -a -g "$x,$y ${w}x${h}"
+play "$HOME/prj/audios/alarm.mp3" 2>/dev/null
+wf-recorder -a -g "$x,$y ${w}x${h}" -c libx265 -p preset=superfast
 mv "$HOME/recording.mp4" "$HOME/record-${datetime}.mp4"
